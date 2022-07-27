@@ -1,0 +1,269 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul {
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.header li {
+    padding: 8px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Body */
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content One */
+
+.content-one {
+    background-color: #1F2937;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 16px;
+    flex: 1;
+}
+
+.content-one-text {
+    width: auto;
+    padding: 0 20px 0 20px;
+    flex: 1;
+}
+
+.content-one-image {
+    width: auto;
+    background-color: #e5e7eb4b;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 20px 0 20px;
+    flex: 1;
+}
+
+.content-one-text h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 8px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content-one-text p {
+    margin: 0;
+    padding: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    padding: 8px;
+}
+
+.button button {
+    background-color: #3882F6;
+    padding: 4px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-weight: bold;
+    height: 25px;
+    width: 75px;
+}
+
+/* Content Two */
+
+.content-two {
+    padding: 0 20px 100px 20px;
+}
+
+.text-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    border: 0.25rem rgb(0, 110, 255) solid;
+    border-radius: 15px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #3c3e41;
+    padding: 8px;
+}
+
+
+/* Content Three */
+
+.content-three {
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 16px;
+}
+
+.quote {
+    padding: 0 10% 0 10%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    width: 60vw;
+}
+
+.author {
+    padding: 0 10% 0 10%;
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bolder;
+    display: flex;
+    width: 60vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Content Four */
+
+.content-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    padding: 100px;
+}
+
+.container-signup {
+    width: 80vw;
+    padding: 20px;
+    height: auto;
+    background-color: rgb(0, 110, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+.signup-text {
+    padding: 16px;
+}
+
+.signup-text h3 {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.signup-text p {
+    margin: 0;
+    padding: 5px 0 20px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.signup-button {
+    padding: 16px;
+}
+
+.signup-button button {
+    border-radius: 5px;
+    border: white solid;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    height: 30px;
+    width: 100px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
